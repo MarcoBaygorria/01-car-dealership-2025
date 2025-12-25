@@ -6,23 +6,4 @@ import { CarsService } from './cars.service';
     controllers: [CarsController],
     providers: [CarsService],
 })
-export class CarsModule {
-
-    private cars = [
-        {
-            id: 1,
-            brand: 'Toyota',
-            model: 'Corolla'
-        },
-        {
-            id: 2,
-            brand: 'Honda',
-            model: 'Civic'
-        },
-        {
-            id: 3,
-            brand: 'Jeep',
-            model: 'Cherokee'
-        },
-    ]
-}
+export class CarsModule { }
